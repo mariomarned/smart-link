@@ -14,8 +14,8 @@ export default function handler(req) {
 
   // Título y textos para la tarjeta de WhatsApp y redes
   const meta = {
-    title: 'Descarga NED Leal | Acumula y redime tus puntos',
-    description: 'Descarga la app en Android o iOS, apoya el comercio de tu barrio y disfruta de recompensas exclusivas.',
+    title: 'Descarga NED Leal | Disfruta el poder de la Lealtad',
+    description: 'Descarga la app en Android o iOS, apoya el comercio local y disfruta de recompensas exclusivas.',
     url: req.url,
   };
 
