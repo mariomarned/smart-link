@@ -27,11 +27,13 @@ export default function handler(req) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>${meta.title}</title>
   
-  <!-- Metadatos Open Graph (WhatsApp, Facebook, Telegram, LinkedIn) -->
+  <!-- Metadatos Open Graph reforzados para WhatsApp -->
   <meta property="og:type" content="website">
   <meta property="og:title" content="${meta.title}">
   <meta property="og:description" content="${meta.description}">
   <meta property="og:image" content="${previewImage}">
+  <meta property="og:image:secure_url" content="${previewImage}">
+  <meta property="og:image:type" content="image/png">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:url" content="${meta.url}">
