@@ -1,7 +1,7 @@
 {
   "rewrites": [
     {
-      "source": "/(.*)",
+      "source": "/((?!.*\\.(?:png|jpg|jpeg|svg|ico|webp)$).*)",
       "destination": "/api/descargar"
     }
   ]
